@@ -13,7 +13,7 @@ body
 .main_wrapper
 {
     min-width: 600px;
-    width: 60%;
+    width: 85%;
     margin: auto;
 }
 a {
@@ -92,82 +92,4 @@ nav a:hover
 li
 {
     margin-bottom: 0.8em;
-}
-/* Blocs de publications et preprints */
-
-.preprint
-{
-    max-height: 10em;
-    border-radius: 0.6em;
-    margin: 4px 0px 4px 0px;
-    /* text-overflow: ellipsis; */
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background: #11aa899d;
-}
-
-.preprint *
-{
-    margin: 2px 6px 2px 6px;
-}
-/* .author, .link
-{
-    margin: 0px 1px 0px 3px;
-} */
-.preprint a
-{
-    text-decoration: none;
-}
-.preprint a:hover
-{
-    color: #ffffffa9;
-}
-.bloc_author
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.author
-{
-    display: flex;
-    font-variant: small-caps;
-    align-items: center;
-    /* padding: 0px 4px 0px 4px; */
-    /* border: 2px solid black; */
-}
-.bloc_title
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-height: 100%;
-    flex:1;
-    width: 50%;
-    /* background-color: black; */
-    overflow: hidden;
-}
-.title
-{
-    font-style: italic;
-}
-.bloc_link
-{
-    display: flex;
-    flex-direction: row;
-    height: inherit;
-}
-.arxiv, .pdf
-{
-    border-radius: 0.6ex;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 1px 0px 1px ;
-    padding: 3px 3px 3px 3px;
-    background: #05352a9d;
 }
